@@ -18,7 +18,7 @@ function calculate(button){
        }
     else{
         calculation.push(value);
-        accumulation=calculation.join(' ')
+        accumulation=calculation.join('')
         display.textContent=accumulation;
     }
 }
