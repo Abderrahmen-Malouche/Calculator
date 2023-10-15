@@ -11,7 +11,7 @@ function calculate(button){
     if (value==="clear"){
         calculation=[];
         accumulation=0;
-        screenDisplay.textContent ="."
+        display.textContent ="."
     }
     else if (value === "="){
         display.textContent=eval(accumulation);
